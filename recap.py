@@ -11,7 +11,7 @@ class MyCalculator:
         self.label = tk.Label(self.root, text="Hello DIP02", font=('Arial',18))
         self.label.pack()
 
-        self.button = tk.Button(self.root, text="Click here", height=4)
+        self.button = tk.Button(self.root, text="Click here 1", height=4)
         self.button.place(x=20, y=50)
 
         self.button = tk.Button(self.root, text="Click here 2", height=4)
